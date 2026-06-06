@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/abhinav/ric-compiler/ric-compiler/build/cmake_install.cmake",
+		"/home/abhinav/ric-compiler/ric-compiler/build/compiler/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

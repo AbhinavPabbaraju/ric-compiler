@@ -1,0 +1,31 @@
+fn collatz_steps(n: i32) -> i32 {
+    let mut x = n;
+    let mut steps = 0;
+
+    while x != 1 {
+        if x % 2 == 0 {
+            x = x / 2;
+        } else {
+            x = x * 3 + 1;
+        }
+        steps = steps + 1;
+    }
+
+    steps
+}
+
+fn abs_diff(a: i32, b: i32) -> i32 {
+    if a >= b { a - b } else { b - a }
+}
+
+fn max(a: i32, b: i32) -> i32 {
+    if a >= b { a } else { b }
+}
+
+fn min(a: i32, b: i32) -> i32 {
+    if a <= b { a } else { b }
+}
+
+fn main() -> i32 {
+    collatz_steps(27)
+}

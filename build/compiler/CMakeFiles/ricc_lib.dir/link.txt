@@ -1,0 +1,2 @@
+/usr/bin/ar qc libricc_lib.a CMakeFiles/ricc_lib.dir/src/diagnostics/diagnostics.cpp.o CMakeFiles/ricc_lib.dir/src/lexer/lexer.cpp.o CMakeFiles/ricc_lib.dir/src/parser/parser.cpp.o CMakeFiles/ricc_lib.dir/src/semantic/semantic_analyzer.cpp.o CMakeFiles/ricc_lib.dir/src/ir/ir_builder.cpp.o CMakeFiles/ricc_lib.dir/src/optimizer/passes.cpp.o CMakeFiles/ricc_lib.dir/src/codegen/codegen.cpp.o CMakeFiles/ricc_lib.dir/src/driver/driver.cpp.o
+/usr/bin/ranlib libricc_lib.a

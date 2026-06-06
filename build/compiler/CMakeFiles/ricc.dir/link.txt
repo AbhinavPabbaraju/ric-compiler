@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/ricc.dir/link.d CMakeFiles/ricc.dir/src/main.cpp.o -o ricc  libricc_lib.a

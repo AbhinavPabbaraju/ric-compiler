@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/abhinav/ric-compiler/ric-compiler/build/compiler",
+  "command": "/usr/bin/c++  -I/home/abhinav/ric-compiler/ric-compiler/compiler/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O3 -march=native -DNDEBUG -o CMakeFiles/ricc_lib.dir/src/diagnostics/diagnostics.cpp.o -c /home/abhinav/ric-compiler/ric-compiler/compiler/src/diagnostics/diagnostics.cpp",
+  "file": "/home/abhinav/ric-compiler/ric-compiler/compiler/src/diagnostics/diagnostics.cpp",
+  "output": "compiler/CMakeFiles/ricc_lib.dir/src/diagnostics/diagnostics.cpp.o"
+},
+{
+  "directory": "/home/abhinav/ric-compiler/ric-compiler/build/compiler",
+  "command": "/usr/bin/c++  -I/home/abhinav/ric-compiler/ric-compiler/compiler/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O3 -march=native -DNDEBUG -o CMakeFiles/ricc_lib.dir/src/lexer/lexer.cpp.o -c /home/abhinav/ric-compiler/ric-compiler/compiler/src/lexer/lexer.cpp",
+  "file": "/home/abhinav/ric-compiler/ric-compiler/compiler/src/lexer/lexer.cpp",
+  "output": "compiler/CMakeFiles/ricc_lib.dir/src/lexer/lexer.cpp.o"
+},
+{
+  "directory": "/home/abhinav/ric-compiler/ric-compiler/build/compiler",
+  "command": "/usr/bin/c++  -I/home/abhinav/ric-compiler/ric-compiler/compiler/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O3 -march=native -DNDEBUG -o CMakeFiles/ricc_lib.dir/src/parser/parser.cpp.o -c /home/abhinav/ric-compiler/ric-compiler/compiler/src/parser/parser.cpp",
+  "file": "/home/abhinav/ric-compiler/ric-compiler/compiler/src/parser/parser.cpp",
+  "output": "compiler/CMakeFiles/ricc_lib.dir/src/parser/parser.cpp.o"
+},
+{
+  "directory": "/home/abhinav/ric-compiler/ric-compiler/build/compiler",
+  "command": "/usr/bin/c++  -I/home/abhinav/ric-compiler/ric-compiler/compiler/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O3 -march=native -DNDEBUG -o CMakeFiles/ricc_lib.dir/src/semantic/semantic_analyzer.cpp.o -c /home/abhinav/ric-compiler/ric-compiler/compiler/src/semantic/semantic_analyzer.cpp",
+  "file": "/home/abhinav/ric-compiler/ric-compiler/compiler/src/semantic/semantic_analyzer.cpp",
+  "output": "compiler/CMakeFiles/ricc_lib.dir/src/semantic/semantic_analyzer.cpp.o"
+},
+{
+  "directory": "/home/abhinav/ric-compiler/ric-compiler/build/compiler",
+  "command": "/usr/bin/c++  -I/home/abhinav/ric-compiler/ric-compiler/compiler/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O3 -march=native -DNDEBUG -o CMakeFiles/ricc_lib.dir/src/ir/ir_builder.cpp.o -c /home/abhinav/ric-compiler/ric-compiler/compiler/src/ir/ir_builder.cpp",
+  "file": "/home/abhinav/ric-compiler/ric-compiler/compiler/src/ir/ir_builder.cpp",
+  "output": "compiler/CMakeFiles/ricc_lib.dir/src/ir/ir_builder.cpp.o"
+},
+{
+  "directory": "/home/abhinav/ric-compiler/ric-compiler/build/compiler",
+  "command": "/usr/bin/c++  -I/home/abhinav/ric-compiler/ric-compiler/compiler/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O3 -march=native -DNDEBUG -o CMakeFiles/ricc_lib.dir/src/optimizer/passes.cpp.o -c /home/abhinav/ric-compiler/ric-compiler/compiler/src/optimizer/passes.cpp",
+  "file": "/home/abhinav/ric-compiler/ric-compiler/compiler/src/optimizer/passes.cpp",
+  "output": "compiler/CMakeFiles/ricc_lib.dir/src/optimizer/passes.cpp.o"
+},
+{
+  "directory": "/home/abhinav/ric-compiler/ric-compiler/build/compiler",
+  "command": "/usr/bin/c++  -I/home/abhinav/ric-compiler/ric-compiler/compiler/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O3 -march=native -DNDEBUG -o CMakeFiles/ricc_lib.dir/src/codegen/codegen.cpp.o -c /home/abhinav/ric-compiler/ric-compiler/compiler/src/codegen/codegen.cpp",
+  "file": "/home/abhinav/ric-compiler/ric-compiler/compiler/src/codegen/codegen.cpp",
+  "output": "compiler/CMakeFiles/ricc_lib.dir/src/codegen/codegen.cpp.o"
+},
+{
+  "directory": "/home/abhinav/ric-compiler/ric-compiler/build/compiler",
+  "command": "/usr/bin/c++  -I/home/abhinav/ric-compiler/ric-compiler/compiler/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O3 -march=native -DNDEBUG -o CMakeFiles/ricc_lib.dir/src/driver/driver.cpp.o -c /home/abhinav/ric-compiler/ric-compiler/compiler/src/driver/driver.cpp",
+  "file": "/home/abhinav/ric-compiler/ric-compiler/compiler/src/driver/driver.cpp",
+  "output": "compiler/CMakeFiles/ricc_lib.dir/src/driver/driver.cpp.o"
+},
+{
+  "directory": "/home/abhinav/ric-compiler/ric-compiler/build/compiler",
+  "command": "/usr/bin/c++  -I/home/abhinav/ric-compiler/ric-compiler/compiler/include -O3 -DNDEBUG -std=c++23 -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-missing-field-initializers -O3 -march=native -DNDEBUG -o CMakeFiles/ricc.dir/src/main.cpp.o -c /home/abhinav/ric-compiler/ric-compiler/compiler/src/main.cpp",
+  "file": "/home/abhinav/ric-compiler/ric-compiler/compiler/src/main.cpp",
+  "output": "compiler/CMakeFiles/ricc.dir/src/main.cpp.o"
+}
+]

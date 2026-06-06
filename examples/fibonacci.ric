@@ -1,0 +1,30 @@
+fn fib_recursive(n: i32) -> i32 {
+    if n <= 1 {
+        n
+    } else {
+        fib_recursive(n - 1) + fib_recursive(n - 2)
+    }
+}
+
+fn fib_iterative(n: i32) -> i32 {
+    if n <= 1 {
+        return n;
+    }
+
+    let mut a = 0;
+    let mut b = 1;
+    let mut i = 2;
+
+    while i <= n {
+        let mut tmp = a + b;
+        a = b;
+        b = tmp;
+        i = i + 1;
+    }
+
+    b
+}
+
+fn main() -> i32 {
+    fib_iterative(30)
+}
