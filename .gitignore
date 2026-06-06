@@ -1,0 +1,7 @@
+build/
+*.o
+*.a
+*.asm
+*.out
+a.out
+compile_commands.json
